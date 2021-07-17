@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors!</title>
+	<link rel="stylesheet" href="style.css"></link>
+	<script src="logic.js"></script>
+</head>
+<body>
+	<h1>Rock Paper Scissors!</h1>
+	<p id="output">Please make a move!</p>
+	<button onclick="restart()" id="restart">Try again!</button>
+	<div>
+		<img id="rock" onclick="move('rock')" width="256" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Rock-paper-scissors_%28rock%29.png">
+		<img id="paper" onclick="move('paper')" width="256" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Rock-paper-scissors_%28paper%29.png">
+		<img id="scissors" onclick="move('scissors')" width="256" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Rock-paper-scissors_%28scissors%29.png">
+	</div>
+</body>
+</html>
